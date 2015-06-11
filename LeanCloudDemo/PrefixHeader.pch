@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  LeanChatExample
+//
+//  Created by Mac on 15-6-10.
+//  Copyright (c) 2015年 avoscloud. All rights reserved.
+//
+
+#ifndef LeanChatExample_PrefixHeader_pch
+#define LeanChatExample_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
+
+#ifdef __OBJC__
+  #import <Foundation/Foundation.h>
+  #import <UIKit/UIKit.h>
+  #import "Common.h"
+  #import "LCECommon.h"
+
+#endif
